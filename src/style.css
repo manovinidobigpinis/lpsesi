@@ -1,0 +1,16 @@
+:root {
+  --pombo-cinza: #8A8F98;
+  --pombo-chumbo: #555B63;
+  --pombo-azulado: #6E7C8C;
+  --pombo-gelo: #E9ECEF;
+  --pombo-iridescente: #6B5B95;
+  --pombo-petroleo: #4F6D67;
+  --pombo-concreto: #C9C1B7;
+  --text: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
