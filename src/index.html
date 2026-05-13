@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -12,19 +11,19 @@
 </head>
 <body>
     <nav>
-        <span class="navItems">
+        <span class="navItems" onclick="navTo('s1')">
             <img src="../assets/icon/workplace.png" alt="Sobre">
             <a class="navWords" href="#s1">Sobre </a>
         </span>
-        <span class="navItems">
-            <img src="../assets/icon/dove.png" alt="Pombo">
+        <span class="navItems" onclick="navTo('s2')">
+            <img src="../assets/icon/dove.png" alt="Pombo" >
             <a class="navWords" href="#s2">Pidgeons</a>
         </span>
-        <span class="navItems">
+        <span class="navItems" onclick="navTo('s3')">
             <img src="../assets/icon/play-button.png" alt="Video">
             <a class="navWords" href="#s3">Video</a>
         </span>
-        <span class="navItems">
+        <span class="navItems" onclick="navTo('s4')">
             <img src="../assets/icon/customer-service.png" alt="Contato">
             <a class="navWords" href="#s4">Contato</a>
         </span>
@@ -45,5 +44,6 @@
         </section>
     </main>
     <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>

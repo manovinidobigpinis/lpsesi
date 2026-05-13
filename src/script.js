@@ -7,3 +7,10 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('sc')
     }
 })
+
+function navTo(id){
+    document.getElementById(id).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    })
+}
