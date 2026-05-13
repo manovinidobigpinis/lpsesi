@@ -90,7 +90,7 @@ section{
 }
 
 #s1{
-  background-image: url('https://wallpapers.com/images/hd/pombo-3504-x-2336-1njjs1jcffmcb609.jpg');
+  background-image: url('https://a-static.besthdwallpaper.com/white-dove-wallpaper-1920x1080-30232_48.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +112,15 @@ h1{
   text-align: center;
   animation: esquerda 2s ease-in-out;
   color: var(--pombo-iridescente);
+}
+
+h2{
+  color: var(--pombo-chumbo);
+  text-align: center;
+  text-shadow: 5px 5px 5px var(--text);
+  animation: esquerda 2s ease-in-out;
+  font-size: 2.1vw;
+  margin-top: -10px;
 }
 
 @keyframes esquerda{
