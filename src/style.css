@@ -20,7 +20,7 @@
 
 body{
   font-family: var(--font);
-  background-color: var(--bg);
+  background-color: var(--pombo-chumbo);
   color: var(--text);
   overflow-x: hidden;
 }
@@ -40,7 +40,7 @@ nav{
   animation: decima 0.5s ease-in-out;
 }
 nav.sc{
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.555);
   box-shadow: 10px 3px 10px;
 }
 @keyframes decima{
@@ -77,7 +77,7 @@ nav.sc{
   font-size: 1.2vw;
   letter-spacing: 2px;
   opacity: 0.8;
-  transition: all 200ms linear;
+  transition: all 2s linear;
   font-weight: 700;
 }
 .navItems a:hover{
@@ -90,7 +90,7 @@ section{
 }
 
 #s1{
-  background-image: url('https://a-static.besthdwallpaper.com/white-dove-wallpaper-1920x1080-30232_48.jpg');
+  background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1107/Crowned_Pigeon_wallpaper_1366x768.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,6 +101,41 @@ section{
   justify-content: center;;
 }
 
+#s2{
+  background-image: url('https://wallpapers.com/images/hd/pombo-3504-x-2336-1njjs1jcffmcb609.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+#s3{
+  background-image: url('https://wallpapers.com/images/hd/white-dove-with-wings-spread-wide-bgyq8ax51fhq3c1u.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+#s4{
+  background-image: url('https://w0.peakpx.com/wallpaper/970/20/HD-wallpaper-just-a-kiss-kissing-funny-birds-pidgeon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
 h1{
   font-size: 160px;
   word-break: break-word;
@@ -110,7 +145,7 @@ h1{
   letter-spacing: 7px;
   width: 100%;
   text-align: center;
-  animation: esquerda 2s ease-in-out;
+  animation: esquerda 5s ease-in-out;
   color: var(--pombo-iridescente);
 }
 
@@ -118,7 +153,7 @@ h2{
   color: var(--pombo-chumbo);
   text-align: center;
   text-shadow: 5px 5px 5px var(--text);
-  animation: esquerda 2s ease-in-out;
+  animation: esquerda 5s ease-in-out;
   font-size: 2.1vw;
   margin-top: -10px;
 }
@@ -128,6 +163,24 @@ h2{
     transform: scale3d(-100px);
     opacity: 0;
   }
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 40px;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+footer.ft a{
+  background-color: white;
+  box-shadow: 10px 3px 10px;
 }
 
 @media (width <= 1000px){
