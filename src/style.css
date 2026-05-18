@@ -126,16 +126,79 @@ section{
 }
 
 #s4{
-  background-image: url('https://wallpapers.com/images/hd/white-dove-with-wings-spread-wide-bgyq8ax51fhq3c1u.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  min-height: 70vh;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#formulario{
+  width: 300px;
+  height: auto;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;;
+  gap: 20px;
+  border: 2px solid var(--text);
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px var(--bg);
 }
+
+#formulario label{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: -25px;
+  font-size: 22px;
+}
+
+#formulario input{
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--text);
+  background-color: transparent;
+  color: var(--text);
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0px 3px 10px var(--bg);
+}
+
+#formulario textarea{
+  max-width: 100%;
+  width: 255px;
+  min-width: 255px;
+  max-height: 100px;
+  background-color: transparent;
+  color: var(--text);
+  border: none;
+  border: 2px solid var(--text);
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px var(--bg);
+  padding: 10px;
+  font-size: 15px;
+}
+
+#formulario button{
+  width: 100%;
+  padding: 10px;
+  background-color: var(--text);
+  border: none;
+  border: 2px solid var(--text);
+  border-radius: 50px;
+  font-size: 17px;
+  transition: all 200ms ease-in-out;
+}
+
+#formulario button:hover{
+  cursor: help;
+  box-shadow: #000000;
+  background-color: transparent;
+  color: var(--text);
+}
+
 h1{
   font-size: 160px;
   word-break: break-word;
