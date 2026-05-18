@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>GolubeyBuy</title>
+</head>
+<body>
+    <nav>
+        <span class="navItems" onclick="navTo('s1')">
+            <img src="../assets/icon/workplace.png" alt="Sobre">
+            <a class="navWords" href="#s1">Sobre </a>
+        </span>
+        <span class="navItems" onclick="navTo('s2')">
+            <img src="../assets/icon/dove.png" alt="Pombo" >
+            <a class="navWords" href="#s2">Pidgeons</a>
+        </span>
+        <span class="navItems" onclick="navTo('s3')">
+            <img src="../assets/icon/play-button.png" alt="Video">
+            <a class="navWords" href="#s3">Video</a>
+        </span>
+        <span class="navItems" onclick="navTo('s4')">
+            <img src="../assets/icon/customer-service.png" alt="Contato">
+            <a class="navWords" href="#s4">Contato</a>
+        </span>
+    </nav>
+    <main>
+        <section id="s1">
+            <h1>GolubeyBuy</h1>
+            <h2>Os melhores pombos vendidos em mercado ilegal para qualquer uso.</h2>
+        </section>
+        <section id="s2">
+            <h3>POMBO</h3>
+        </section>
+        <section id="s3">
+            <iframe class="vid" src="https://www.youtube.com/embed/9tkAj82rNGM?si=oR6gUWeQYp7mR62y&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="s4">
+            <h3>CHAMA</h3>
+            <div id="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <label for="assunto">Mensagem: </label>
+                <textarea id="assunto" placeholder="Digite sua mensagem: "></textarea>
+                <button onclick="enviar()">MANDADO</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/vini_renaud/" target="_blank">
+            <img width="35px" src="../assets/icon/instagram.png" alt="insta">
+        </a>
+        <a href="https://github.com/manovinidobigpinis">
+            <img width="35px" src="../assets/icon/github.png" alt="git">
+        </a>
+        <a href="https://www.linkedin.com">
+            <img width="35px" src="../assets/icon/linkedin.png" alt="linke">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+:root {
+  --pombo-cinza: #8A8F98;
+  --pombo-chumbo: #555B63;
+  --pombo-azulado: #6E7C8C;
+  --pombo-gelo: #E9ECEF;
+  --pombo-iridescente: #6B5B95;
+  --pombo-petroleo: #4F6D67;
+  --pombo-concreto: #C9C1B7;
+  --text: #ffffff;
+  --bg: #000000;
+  --font: "Oswald", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+  font-family: var(--font);
+  background-color: var(--pombo-chumbo);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  height: 50px;
+  z-index: 999;
+  transition: all 1s ease-in-out;
+  animation: decima 3s ease-in-out;
+}
+nav.sc{
+  background-color: rgba(0, 0, 0, 0.555);
+  box-shadow: 10px 3px 10px;
+}
+@keyframes decima{
+  0%{
+    transform: translateY(-100px);
+
+  }
+  100%{
+
+  }
+}
+.navItems{
+  background-color: #ffffff77;
+  border-radius: 999px;
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.navItems img{
+  width: 20px;
+}
+
+.navItems:hover{
+  cursor: pointer;
+}
+
+.navItems a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2vw;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  transition: all 200ms linear;
+  font-weight: 700;
+}
+.navItems a:hover{
+  text-shadow: 0px 3px 10px var(--text);
+  opacity: 1;
+}
+section{
+  min-height: 100vh;
+  height: auto;
+}
+
+#s1{
+  background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1107/Crowned_Pigeon_wallpaper_1366x768.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+#s2{
+  background-image: url('https://wallpapers.com/images/hd/pombo-3504-x-2336-1njjs1jcffmcb609.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+#s3{
+  background-image: url('https://wallpapers.com/images/hd/white-dove-with-wings-spread-wide-bgyq8ax51fhq3c1u.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+#s4{
+  background-image: url('https://wallpapers.com/images/hd/white-dove-with-wings-spread-wide-bgyq8ax51fhq3c1u.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+h1{
+  font-size: 160px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 5px #ffffff;
+  letter-spacing: 7px;
+  width: 100%;
+  text-align: center;
+  animation: esquerda 3s ease-in-out;
+  color: #222222;
+}
+
+h2{
+  color: #222222;
+  text-align: center;
+  text-shadow: 0px 3px 5px #ffffff;
+  animation: esquerda 3s ease-in-out;
+  font-size: 2.1vw;
+  margin-top: -10px;
+}
+
+@keyframes esquerda{
+  0%{
+    transform: scale3d(-100px);
+    opacity: 0;
+  }
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 35px;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transition: all 1s ease-in-out;
+  animation: debaixo 3s ease-in-out;
+}
+
+@keyframes debaixo{
+  0%{
+    transform: translateY(100px);
+  }
+}
+
+footer.ft a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 999px;
+}
+
+.vid{
+  width: 100%;
+  height: 800px;
+}
+
+@media (width <= 1000px){
+  .navWords{
+    display: none;
+  }
+  .vid{
+    height: 412px;
+  }
+  #s1{
+    background-image: url('https://img.freepik.com/fotos-gratis/foto-vertical-de-um-pombo-e-um-passaro-marrom_181624-45474.jpg');
+  }
+}
